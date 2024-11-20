@@ -132,23 +132,13 @@ a{
     filter: grayscale(0%);
 }
 
+
 /* Desktop screen size */
 @media (min-width:480px) {
 .dropdown-button{
     display: none;
 }
-.dropdown-content button {
-    background: none;
-    margin-top: -15px;
-    border: none;
-    color: white;
-    font-size: 14px;
-    cursor: pointer;
-    width: 80px;
-    height: 35px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
+
 .dropdown-content button:hover {
     background-color: white;
     color: #4a050d;
@@ -162,7 +152,18 @@ a{
     align-items: center;
     margin-right: 295px;
 }
-
+.dropdown-content button {
+    background: none;
+    margin-top: -15px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
 .home-page-section, .contact{
     background-image: url('images/img-restaurant-desktop.jpg');
 }
